@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/global.css">
+  <!-- <link rel="stylesheet" href="./styles/header.css"> -->
+  <link rel="stylesheet" href="./styles/finalizarReserva.css">
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>Finalizar reserva</title>
+</head>
+<body>
+
+  <header>
+        <!-- Sessão Navbar  -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!-- Logo do Website  -->
+                <a href="index.html" class="navbar__logo">
+                    <img src="./assets/logo movida.png" />
+                </a>
+
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- Menu Item -->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">PLANO DE ALUGUÉIS</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://movida.vercel.app/" class="navbar__links">DESCUBRA SEU CARRO IDEAL</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/history.html" class="navbar__links">ENCONTRE UMA LOJA</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/history.html" class="navbar__links">SERVIÇOS DISPONÍVEIS</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <button id="openModal" class="button">LOGIN</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- fim do navbar  -->
+
+    </header>
+
+  <main>
+
+   <div id="grid">
+     
+    <aside class="resume">
+      <div class="card-resume">
+
+        <span class="card-title">resumo do aluguel</span>
+
+        <div class="informations">
+          <span class="title">Carro</span>
+          <p class="text-information">HB20</p>
+          
+          <span class="title">Retirada</span>
+          
+          <span class="label">Local de retirada</span>
+          <p class="text-information">São Paulo - SP</p>
+          
+          <span class="label">Data de retirada</span>
+          <p class="text-information">05/11/2020 - 22:00h</p>
+          
+          <span class="title">Devolução</span>
+         
+          <span class="label">Local de devolução</span>
+          <p class="text-information">São Paulo - SP</p>
+         
+          <span class="label">Data de devolução</span>
+          <p class="text-information">10/11/2020 - 22:00h</p>
+        </div>
+
+      </div>
+    </aside>
+
+
+
+    <div class="options">
+
+      <div id="grid-options">
+
+        <div class="percentage">
+
+
+          <div class="percentage">
+
+            <div class="container">
+              <div class="circle">1</div>
+              <div class="line"></div>
+              <div class="circle">2</div>
+              <div class="line"></div>
+              <div class="circle">3</div>
+            </div>
+
+            <div class="subtitle-percentage">
+              <span>Escolha seu carro</span>
+              <span>Personalize sua reserva</span>
+              <span>Finalização</span>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+        <div class="reservation">
+          <div class="card reserve">
+            <span class="card-title">Sua reserva</span>
+            <div class="container-payment__options">
+              <div class="adtionals grid-adtionals">
+
+                <div class="box-adtional box-1">
+                  <span>Diarias com KM Livre</span>
+                  <span>R$591,60</span>
+                </div>
+                
+                <div class="box-adtional box-2">
+                  <span>Taxa Administrativa</span>
+                  <span>R$75,19</span>
+                </div>
+                
+               <div class="box-adtional box-3">
+                 <span>Serviços Adicionais</span>
+                 <span>R$35,00</span>
+                </div>
+                
+                <div class="box-adtional box-4">
+                  <span>Acessórios</span>
+                  <span>R$00,00</span>
+                </div>
+              </div>
+
+              </div>
+
+            <div class="total">
+             <strong>total:<span> R$701,79</span></strong> 
+            </div>
+            <p class="text-warning">*Se o modelo escolhido não estiver disponível será entregue outro carro com os mesmo atributos. Não garantimos cor ou final de placa.</p>
+          </div>
+        </div>
+
+        <div class="payment">
+          <div class="card">
+            <span class="payment-title">Opções de Pagamento</span>
+            <p class="payment-text">Você pode pagar diretamente na loja ou pagar agora com o desconto exclusivo e agilizar a sua contratação.</p>
+           
+            <div class="container-payment__options">
+
+              <div class="box-payment__options">
+
+                  <img class="logo-pay__options"src="./assets/pagarNaLoja.png" alt="">
+  
+                  <div class="text-payment">
+                    <span>Pagar Agora</span>
+                    <span>R$701,79</span>
+                  </div>
+
+              </div>
+              
+              <div class="box-payment__options">
+                <img class="logo-pay__options"src="./assets/pagarAgora.png" alt="">
+
+                <div class="text-payment">
+                  <span>Pagar na Loja</span>
+                  <span>R$771,69</span>
+                </div>
+            </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="button-options">
+          <a onclick="concluida()" href="potalUsuario.html">confirmar reserva</a>
+        </div>
+
+      </div>
+
+    </div>
+  
+    </div>
+    
+  </main>
+
+<!-- newsletter -->
+<div class="__newsletter">
+    <div class="container">
+        <div class="__box-news">
+            <p>Cadastre seu email e receba ofertas especiais pensadas para você</p>
+            <form action="">
+                <input type="text" id="email-newsletter" placeholder="Digite seu email aqui" />
+
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- end newsletter -->
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="map-site">
+            <div class="__col __col-one">
+                <ul>
+                    <li>
+                        <h4>INSTITUCIONAL</h4>
+                    </li>
+                    <li>
+                        <h5><a href="">Sobre nós</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Carreiras</a></h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>SEGURANÇA</h4>
+                    </li>
+                    <li>
+                        <h5><a href="">Privacidade e Segurança</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Termos e condições</a></h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="__col __col-two">
+                <ul>
+                    <li>
+                        <h4>PARA EMPRESAS</h4>
+                    </li>
+                    <li>
+                        <h5><a href="">Terceirize sua frota</a></h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>RELACIONAMENTO</h4>
+                    </li>
+                    <li>
+                        <h5><a href="">Portal do colaborador</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Portal B2B</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Perguntas frequentes</a></h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="__col __col-three">
+                <ul>
+                    <li>
+                        <h4>NOSSOS SERVIÇOS</h4>
+                    </li>
+                    <li>
+                        <h5><a href="">Aluguel eventual</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Aluguel mensal</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Aluguel anual</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Pré-pago Movida</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Seminovos Movida</a></h5>
+                    </li>
+                    <li>
+                        <h5><a href="">Movida ZeroKM</a></h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="__col __col-four">
+                <ul>
+                    <li>
+                        <h4>ATENDIMENTO</h4>
+                        <span>
+                            Segunda a Sábado as 8h as 19h <br />
+                            <a href="">0800 606 8686</a>
+                        </span>
+                    </li>
+                    <li>
+                        <h4>REDES SOCIAIS </h4>
+                        <ul class="social">
+                            <li class="__icon __icon-instagram"><a href=""></a></li>
+                            <li class="__icon __icon-facebook"><a href=""></a></li>
+                            <li class="__icon __icon-twitter"><a href=""></a></li>
+                            <li class="__icon __icon-youtube"><a href=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="__app-col __col-five app">
+                <div class="banner-app">
+                    <img src="assets/min-banner-app.png" alt="" />
+                </div>
+                <div class="__description-app">
+                    <span>Baixe grátis o aplicativo Movida e tenha acesso a descontos exclusivos!</span>
+                    <a href=""><img src="assets/app-apple.jpg" /></a>
+                    <a href=""><img src="assets/app-google.jpg" /></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <ul class="__banners-services">
+        <li>
+            <a href="">
+                <img src="assets/logo-movida-white.png" />
+                <div class="text">
+                    <p>Opções mais novas e completas para
+                        você encontrar o carro perfeito.</p>
+                    <span>Saiba mais >></span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="assets/logo-movida-frotas-white.png" />
+                <div class="text">
+                    <p>Opções mais novas e completas para
+                        você encontrar o carro perfeito.</p>
+                    <span>Saiba mais >></span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="assets/logo-movida-seminovos.png" />
+                <div class="text">
+                    <p>Opções mais novas e completas para
+                        você encontrar o carro perfeito.</p>
+                    <span>Saiba mais >></span>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+    <div class="copyright">
+        <div class="container">
+            <small class="span">
+                © 2020 Movida Aluguel de Carros | Todos os direitos reservados.
+            </small>
+            <small>
+                Use o cinto de segurança
+            </small>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+        <span class="closeModal">&times;</span>
+
+        <span class="title-modal_content">Acesse sua conta</span>
+
+        <div class="container-input-login">
+            <img src="./assets/cpf.svg" alt="">
+            <input id="cpf" onkeyup="mascara(this, cpf);" required maxlength="14" class="generic-input" type="text"
+                placeholder="CPF">
+        </div>
+
+        <div class="container-input-login">
+            <img src="./assets/cadeado.svg" alt="">
+            <input class="generic-input" required minlength="6" type="password" placeholder="Senha">
+        </div>
+
+        <div class="login-buttons">
+            <a href="potalUsuario.html"><button class="button-orange">Entrar</button></a>
+
+            <span class="line-login"></span>
+            <a href="cadastro.html"><button class="button-white">Criar conta</button></a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+  function concluida(){
+    alert('Aluguel realizado com sucesso!');
+  }
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("openModal");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("closeModal")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+</script>
+
+ <script src="./js/app.js"></script>
+</body>
+</html>

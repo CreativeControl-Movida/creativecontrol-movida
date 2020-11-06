@@ -1,0 +1,136 @@
+input[type="radio"]:checked {
+  background: #ee7201;
+  border-radius: 50%;
+  appearance: none;
+}
+
+h2 {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#main {
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.section-register {
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px;
+  /* background: rosybrown; */
+}
+
+.personal-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px 0;
+
+  /* background: red; */
+}
+
+.line-input {
+  /* width: 1024px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* background: saddlebrown; */
+}
+
+.generic-input {
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 1em;
+  font-size: 18px;
+  border: 1px solid #51515182;
+  margin: 10px;
+  /* background: salmon; */
+}
+
+.input-large {
+  flex: 3;
+  min-width: 240px;
+}
+.input-medium {
+  flex: 2;
+  min-width: 160px;
+}
+.input-small {
+  flex: 1;
+  min-width: 100px;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 320px;
+  min-width: 310px;
+
+  border: none;
+  padding: 0;
+  /* background: springgreen; */
+}
+
+.title-gender {
+  font-size: 18px;
+  color: #51515182;
+}
+
+.gender > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-radio {
+  color: #51515182;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.input-radio {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+/* ---------------------------------- */
+
+.register-button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 195px;
+  height: 50px;
+  background: #ee7201;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 660px) {
+  input::placeholder {
+    font-size: 14px;
+  }
+  .generic-input {
+    padding-left: 5px;
+  }
+  .label-radio,
+  .title-gender {
+    font-size: 14px;
+  }
+  .gender {
+    justify-content: space-evenly;
+  }
+}

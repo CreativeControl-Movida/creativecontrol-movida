@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/personalizarReserva.css">
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>Personalizar reserva</title>
+
+</head>
+<body>
+
+    <header>
+        <!-- Sessão Navbar  -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!-- Logo do Website  -->
+                <a href="index.html" class="navbar__logo">
+                    <img src="./assets/logo movida.png" />
+                </a>
+
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- Menu Item -->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">PLANO DE ALUGUÉIS</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://movida.vercel.app/" class="navbar__links">DESCUBRA SEU CARRO IDEAL</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/history.html" class="navbar__links">ENCONTRE UMA LOJA</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/history.html" class="navbar__links">SERVIÇOS DISPONÍVEIS</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <button id="openModal" class="button">LOGIN</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- fim do navbar  -->
+
+    </header>
+  <main>
+
+    <div id="grid">
+
+      <aside class="resume">
+        <div class="card-resume">
+
+          <span class="card-title">resumo do aluguel</span>
+
+          <div class="informations">
+            <span class="title">Carro</span>
+            <p class="text-information">HB20</p>
+            
+            <span class="title">Retirada</span>
+            
+            <span class="label">Local de retirada</span>
+            <p class="text-information">São Paulo - SP</p>
+            
+            <span class="label">Data de retirada</span>
+            <p class="text-information">05/11/2020 - 22:00h</p>
+            
+            <span class="title">Devolução</span>
+           
+            <span class="label">Local de devolução</span>
+            <p class="text-information">São Paulo - SP</p>
+           
+            <span class="label">Data de devolução</span>
+            <p class="text-information">10/11/2020 - 22:00h</p>
+          </div>
+
+        </div>
+      </aside>
+      
+      <section class="options">
+        
+        <div class="grid-options"> 
+
+          <div class="percentage flex-per">
+            <div class="flex-per">
+
+              <div class="circle-per">1</div>
+              <div class="line"></div>
+              <div class="circle-per">2</div>
+              <div class="line"></div>
+              <div class="circle-per">3</div>
+            
+            </div>
+
+            <div class="subtitle-percentage">
+              <span>Escolha seu carro</span>
+              <span>Personalize sua reserva</span>
+              <span>Finalização</span>
+            </div>
+
+          </div>
+          
+
+          <div class="title-options">Escolha sua proteção e acessórios</div>
+          
+          <div class="protecoes generic-card">
+
+            <span class="title-card">Proteções</span>
+            <p class="text-card">
+              Selecione uma das proteções abaixo para uma locação mais segura e completa.
+            </p>
+
+            <div class="container-box">
+              
+              <div class="box-option">
+                <span class="box-title">Vidros Básicos</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$7,00<span>/dia</span>
+                </strong>
+              </div>
+              
+              <div class="box-option">
+                
+                <span class="box-title">Vidros e Pneus</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$12,00<span>/dia</span>
+                </strong>
+
+              </div>
+              <div class="box-option">
+
+                <span class="box-title">Proteção Super</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$44,00<span>/dia</span>
+                </strong>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="protecoes-extra generic-card">
+            <span class="title-card">Proteções extras</span>
+            <p class="text-card">
+              Deixe sua reserva mais segura com as proteções extras.
+            </p>
+            <div class="container-box">
+              <div class="box-option">
+                <span class="box-title">Vidros Básicos</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$7,00<span>/dia</span>
+                </strong>
+              </div>
+              
+              <div class="box-option">
+                
+                <span class="box-title">Vidros e Pneus</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$12,00<span>/dia</span>
+                </strong>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="servicos-adicionais generic-card">
+            
+            <span class="title-card">Serviços adicionais</span>
+            <p class="text-card">
+              Adicione serviços e aumente as possibilidades do seu Movida.
+            </p>
+            <div class="container-box">
+              <div class="box-option">
+                <span class="box-title">Novo Condutor</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$7,90<span>/dia</span>
+                </strong>
+              </div>
+              
+              <div class="box-option">
+                
+                <span class="box-title">Locação Jovem</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$29,90<span>/dia</span>
+                </strong>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="acessorios generic-card">
+            
+            <span class="title-card">Acessórios</span>
+            <p class="text-card">
+              Complete sua reserva com acessórios que deixam sua viagem mais fácil e segura.  
+            </p>
+            <div class="container-box">
+              <div class="box-option">
+                <span class="box-title">GPS</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$20,00<span>/dia</span>
+                </strong>
+              </div>
+              
+              <div class="box-option">
+                
+                <span class="box-title">cadeira de bebê</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$20,00<span>/dia</span>
+                </strong>
+
+              </div>
+              <div class="box-option">
+                <span class="box-title">Delivery</span>
+                <a class="box-link" href="#">Saiba mais</a>
+                <strong class="box-price">
+                  R$75,00<span>/dia</span>
+                </strong>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="button-options">
+            <a href="finalizarReserva.html">avançar</a>
+          </div>
+
+        </div>
+
+      </section>
+    </div>      
+
+  </main>
+
+  <!-- newsletter -->
+  <div class="__newsletter">
+      <div class="container">
+          <div class="__box-news">
+              <p>Cadastre seu email e receba ofertas especiais pensadas para você</p>
+              <form action="">
+                  <input type="text" id="email-newsletter" placeholder="Digite seu email aqui" />
+
+                  <button>Enviar</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  <!-- end newsletter -->
+
+
+  <!-- footer -->
+  <footer>
+      <div class="container">
+          <div class="map-site">
+              <div class="__col __col-one">
+                  <ul>
+                      <li>
+                          <h4>INSTITUCIONAL</h4>
+                      </li>
+                      <li>
+                          <h5><a href="">Sobre nós</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Carreiras</a></h5>
+                      </li>
+                  </ul>
+                  <ul>
+                      <li>
+                          <h4>SEGURANÇA</h4>
+                      </li>
+                      <li>
+                          <h5><a href="">Privacidade e Segurança</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Termos e condições</a></h5>
+                      </li>
+                  </ul>
+              </div>
+              <div class="__col __col-two">
+                  <ul>
+                      <li>
+                          <h4>PARA EMPRESAS</h4>
+                      </li>
+                      <li>
+                          <h5><a href="">Terceirize sua frota</a></h5>
+                      </li>
+                  </ul>
+                  <ul>
+                      <li>
+                          <h4>RELACIONAMENTO</h4>
+                      </li>
+                      <li>
+                          <h5><a href="">Portal do colaborador</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Portal B2B</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Perguntas frequentes</a></h5>
+                      </li>
+                  </ul>
+              </div>
+              <div class="__col __col-three">
+                  <ul>
+                      <li>
+                          <h4>NOSSOS SERVIÇOS</h4>
+                      </li>
+                      <li>
+                          <h5><a href="">Aluguel eventual</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Aluguel mensal</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Aluguel anual</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Pré-pago Movida</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Seminovos Movida</a></h5>
+                      </li>
+                      <li>
+                          <h5><a href="">Movida ZeroKM</a></h5>
+                      </li>
+                  </ul>
+              </div>
+              <div class="__col __col-four">
+                  <ul>
+                      <li>
+                          <h4>ATENDIMENTO</h4>
+                          <span>
+                              Segunda a Sábado as 8h as 19h <br />
+                              <a href="">0800 606 8686</a>
+                          </span>
+                      </li>
+                      <li>
+                          <h4>REDES SOCIAIS </h4>
+                          <ul class="social">
+                              <li class="__icon __icon-instagram"><a href=""></a></li>
+                              <li class="__icon __icon-facebook"><a href=""></a></li>
+                              <li class="__icon __icon-twitter"><a href=""></a></li>
+                              <li class="__icon __icon-youtube"><a href=""></a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <div class="__app-col __col-five app">
+                  <div class="banner-app">
+                      <img src="assets/min-banner-app.png" alt="" />
+                  </div>
+                  <div class="__description-app">
+                      <span>Baixe grátis o aplicativo Movida e tenha acesso a descontos exclusivos!</span>
+                      <a href=""><img src="assets/app-apple.jpg" /></a>
+                      <a href=""><img src="assets/app-google.jpg" /></a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <ul class="__banners-services">
+          <li>
+              <a href="">
+                  <img src="assets/logo-movida-white.png" />
+                  <div class="text">
+                      <p>Opções mais novas e completas para
+                          você encontrar o carro perfeito.</p>
+                      <span>Saiba mais >></span>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="">
+                  <img src="assets/logo-movida-frotas-white.png" />
+                  <div class="text">
+                      <p>Opções mais novas e completas para
+                          você encontrar o carro perfeito.</p>
+                      <span>Saiba mais >></span>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="">
+                  <img src="assets/logo-movida-seminovos.png" />
+                  <div class="text">
+                      <p>Opções mais novas e completas para
+                          você encontrar o carro perfeito.</p>
+                      <span>Saiba mais >></span>
+                  </div>
+              </a>
+          </li>
+      </ul>
+
+      <div class="copyright">
+          <div class="container">
+              <small class="span">
+                  © 2020 Movida Aluguel de Carros | Todos os direitos reservados.
+              </small>
+              <small>
+                  Use o cinto de segurança
+              </small>
+          </div>
+      </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+
+          <span class="closeModal">&times;</span>
+
+          <span class="title-modal_content">Acesse sua conta</span>
+
+          <div class="container-input-login">
+              <img src="./assets/cpf.svg" alt="">
+              <input id="cpf" onkeyup="mascara(this, cpf);" required maxlength="14" class="generic-input" type="text"
+                  placeholder="CPF">
+          </div>
+
+          <div class="container-input-login">
+              <img src="./assets/cadeado.svg" alt="">
+              <input class="generic-input" required minlength="6" type="password" placeholder="Senha">
+          </div>
+
+          <div class="login-buttons">
+              <a href="potalUsuario.html"><button class="button-orange">Entrar</button></a>
+
+              <span class="line-login"></span>
+              <a href="cadastro.html"><button class="button-white">Criar conta</button></a>
+
+          </div>
+
+      </div>
+
+  </div>
+
+  <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("openModal");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("closeModal")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+          modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+          modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+
+
+  </script>
+
+
+
+  <script src="js/app.js"></script>
+  <script src="js/personalizarReserva.js"></script>
+
+</body>
+</html>
